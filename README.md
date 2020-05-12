@@ -8,9 +8,9 @@ Take a look at <a href="http://en.wikipedia.org/wiki/Bubble_sort">this</a> entry
 Here is how we built the bubble_sort algorithm:
 
 We first came-up with a pseudo code that explains all the steps to take. Bubble sort compares ach array elements
-unless the whole array is completely in ascending orer.
+unless the whole array is completely in ascending order.
 What if the array needs no more swapping as all elements are already ascending?
-To ease out the issue we used one flag varriable swapped, which willhelp us see if any swap happened or not. If no swap has happened ie the array requires no more looping it will come out of the loop.
+To ease out the issue we used one flag varriable swapped, which helped us see if any swap happened or not. If no swap happened ie the array requires no more looping it comes out of the loop.
 
 We assumed that list of array of numbers are array(n) elements. We further assumed that swap function swaps the value of a given array. We defined a method and called it bubble_sort and gave it codes that will perform the algorithm function. The algorithm performs the function and returns a list of sorted items depending on the if statements.
 
