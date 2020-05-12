@@ -9,7 +9,7 @@ class Array
           swapped = true
         end
       end
-      break if not swapped
+      break unless swapped
     end
     self
   end
