@@ -1,6 +1,5 @@
 class Array
   def bubble_sort
-    n = self.length
     loop do
       swapped = false
       (n - 1).times do |i|
