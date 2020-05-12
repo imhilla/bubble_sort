@@ -3,7 +3,7 @@ def bubble_sort(array)
     swapped = false
     array.each_with_index do |_val, index|
       next if index >= array.length - 1
-      
+
       if array[index] > array[index + 1]
         array[index], array[index + 1] = array[index + 1], array[index]
         swapped = true
