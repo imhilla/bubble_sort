@@ -1,6 +1,7 @@
 # bubble_sort
 
-In this project, we got an opportunity to build bubble sort algorithm. One of the simpler (but more processor-intensive) ways of sorting a group of items in an array is bubble sort, where each element is compared to the one next to it and they are swapped if the one on the left is larger than the one on the right. This continues until the array is eventually sorted.
+In this project, we got an opportunity to build bubble sort algorithm. One of the simpler (but more processor-intensive) ways of sorting a group of items in an array.
+Elements are compared and swapped. If the one on the left is larger than the one on the right a swap takes course. This continues until the array is eventually sorted.
 
 Take a look at <a href="http://en.wikipedia.org/wiki/Bubble_sort">this</a> entry on Bubble Sort on Wikipedia.
 
