@@ -6,6 +6,7 @@ Elements are compared and swapped. If the one on the left is larger than the one
 Take a look at <a href="http://en.wikipedia.org/wiki/Bubble_sort">this</a> entry on Bubble Sort on Wikipedia.
 
 Here is how we built the bubble_sort algorithm:
+
 We first came-up with a pseudo code that explains all the steps to take. Bubble sort compares ach array elements
 unless the whole array is completely in ascending orer.
 What if the array needs no more swapping as all elements are already ascending?
