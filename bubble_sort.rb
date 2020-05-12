@@ -3,7 +3,7 @@ class Array
     n = self.length
     loop do
       swapped = false
-      (n-1).times do |i|
+      (n - 1).times do |i|
         if self[i] > self[i + 1]
           self[i], self[i + 1] = self[i + 1], self[i]
           swapped = true
@@ -22,7 +22,7 @@ def bubble_sort_by(array)
   n = array.length
   loop do
     swapped = false
-    (n-1).times do |i|
+    (n - 1).times do |i|
       if yield(array[i], array[i + 1]).positive?
         array[i], array[i + 1] = array[i + 1], array[i]
         swapped = true
