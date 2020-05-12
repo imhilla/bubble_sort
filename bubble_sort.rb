@@ -28,3 +28,7 @@ def bubble_sort_by(array)
   end
   array
 end
+
+puts bubble_sort([4, 3, 7,8, 2, 0, 2])
+
+puts bubble_sort_by(%w[hi hello hey]) { |left, right| left.size - right.size }
