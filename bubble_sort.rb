@@ -14,7 +14,7 @@ def bubble_sort(array)
   pp array
 end
 
-def bubble_sort_by(array)
+def bubble_sort_by(array) 
   n = array.size
   loop do
     swapped = false
