@@ -1,18 +1,16 @@
-class Array
-  def bubble_sort
-    n = self.size
-    loop do
-      swapped = false
-      (n - 1).times do |i|
-        if self[i] > self[i + 1]
-          self[i], self[i + 1] = self[i + 1], self[i]
-          swapped = true
-        end
+def bubble_sort(array)
+  loop do
+    swapped = false
+    array.each_with_index do |val, index|
+      next if index >= array.length - 1
+      if array[index] > array[index + 1]
+        array[index], array[index + 1] = array[index + 1], array[index]
+        swapped = true
       end
-      break unless swapped
     end
-    self
+    break unless swapped
   end
+  pp array
 end
 
 def bubble_sort_by(array)
@@ -27,5 +25,5 @@ def bubble_sort_by(array)
     end
     break unless swapped
   end
-  pp array
+  array
 end
